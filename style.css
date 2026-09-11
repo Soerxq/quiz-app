@@ -1,0 +1,11 @@
+.answerBlock,
+.questionBlock {
+    background-color: bisque;
+    width: 90%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px 10px;
+    overflow-wrap: break-word;
+    text-align: center;
+    border-radius: 15px;
+}
