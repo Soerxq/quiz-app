@@ -7,3 +7,13 @@ const questions = [
 ];
 
 questionEl.textContent = questions[0].text;
+
+for (let i = 0; i < questions[0].options.length; i++) {
+
+    const optionButtonEl = document.createElement('button');
+
+    optionButtonEl.classList.add('option');
+
+    optionButtonEl.textContent = questions[0].options[i];
+    answersEl.append(optionButtonEl);
+}
